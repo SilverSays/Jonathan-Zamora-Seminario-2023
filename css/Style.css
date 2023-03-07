@@ -1,0 +1,345 @@
+*{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web:400,600');
+@import url("https://fonts.googleapis.com/css?family=Mukta:700");
+@import url(https://fonts.googleapis.com/css?family=Bree+Serif);
+
+
+
+.nav {
+    font-family:'Rowdies', cursive;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+  }
+  
+  .nav * {
+    box-sizing: border-box;
+    transition: all .35s ease;
+  }
+  
+  .nav li {
+    display: inline-block;
+    list-style: outside none none;
+    margin: .5em 1em;
+    padding: 0;
+  }
+  
+  .nav a {
+    padding: .5em .8em;
+    color: rgba(0, 0, 0, 0.5);
+    position: relative;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  
+  .nav a::before,
+  .nav a::after {
+    content: '';
+    height: 14px;
+    width: 14px;
+    position: absolute;
+    transition: all .35s ease;
+    opacity: 0;
+  }
+  
+  .nav a::before {
+    content: '';
+    right: 0;
+    top: 0;
+    border-top: 3px solid #d68b01;
+    border-right: 3px solid #d68b01;
+    transform: translate(-100%, 50%);
+  }
+  
+  .nav a:after {
+    content: '';
+    left: 0;
+    bottom: 0;
+    border-bottom: 3px solid#d68b01;
+    border-left: 3px solid d68b01;
+    transform: translate(100%, -50%);
+  }
+  
+  .nav a:hover:before,
+  .nav a:hover:after{
+    transform: translate(0,0);
+    opacity: 1;
+  }
+  
+  .nav a:hover {
+    color: #d68b01;
+  }
+
+body{
+    background-image: linear-gradient(135deg, #ffffff, #f5c265c5, #ffffff, #f5f258c5, #ffffff);
+    background-size: 500%;
+    animation-name: fondo;
+    animation-duration: 50s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes fondo {
+    0%{
+        background-position: 0%, 50%;
+    }
+    50%{
+        background-position: 100%, 50%;
+    }
+    100%{
+        background-position: 0%, 50%;
+    }
+}
+
+#IMB {
+    width: auto;
+    height: auto;
+    max-width: 200px;
+    max-height: 200px;
+}
+
+h1 {
+    font-family: 'Rowdies', cursive;
+    margin-top: -200px;
+    font-size: 90px;
+    text-align: center;
+ 
+}
+
+#E1 {
+    width: 1440px;
+    height: 290px;
+}
+
+.nav-link {
+    font-family: 'Fahkwang', sans-serif;
+}
+
+#perfil {
+    border-radius: 10px;
+    width: 260px;
+    height: 260px;
+    margin-left: 1000px;
+    margin-top: 160px;
+    box-shadow: 9px 9px 12px #000000;
+}
+
+#datos {
+    margin-left: 50px;
+    margin-top: -230px;
+    font-family: 'Tilt Warp', cursive;
+    font-size: 30px;
+}
+
+#nom {
+    margin-left: 50px;
+    font-family: 'Do Hyeon', sans-serif;
+    font-size: 20px;
+}
+
+#way1 {
+    font-family: 'Rowdies', cursive;
+    text-align: center;
+    margin-top: 200px;
+}
+
+#way2{
+    font-family: 'Rowdies', cursive;
+    text-align: center;
+    font-size: 25px;
+    text-decoration: none;
+    
+}
+
+#enter {
+    width: 200px;
+    height: 200px;
+    margin-left: 600px;
+}
+
+.reto {
+    background-color: #ffffff;
+}
+
+.footer {
+    background-color: #181818;
+}
+
+#logo {
+    width: 50px;
+    height: 50px;
+}
+
+#copy {
+    color: #ffffff;
+    font-family: 'Rowdies', cursive;
+}
+
+.cro {
+    background-color: #2e2d2d;
+    border-radius: 10px;
+    margin-left: 300px;
+    margin-top: 10px;
+    width: 800px;
+}
+
+.person {
+    font-family: 'Rowdies', cursive;
+    text-align: center;
+    font-size: 40px;
+}
+
+.soy {
+    font-family: 'Rowdies', cursive;
+    text-align: center;
+    font-size: 25px;
+}
+
+.bout {
+    width: 500px;
+    border-radius: 10px;
+    margin-top: -300px;
+    margin-left: 470px;
+    background-color: #85857d85;
+}
+
+#star1 {
+    width: auto;
+    height: auto;
+    max-width: 200px;
+    max-height: 200px;
+    margin-left: 150px;
+    margin-top: 230px;
+}
+
+#star2 {
+    width: auto;
+    height: auto;
+    max-width: 200px;
+    max-height: 200px;
+    margin-left: 1100px;
+    margin-top: -550px;
+}
+
+.acro {
+    font-family: 'Rowdies', cursive;
+    font-size: 80px;
+    text-align: center;
+}
+
+#acroni {
+    width: auto;
+    height: auto;
+    max-width: 600px;
+    max-height: 600px;
+    margin-left: 400px;
+}
+
+.slogan {
+    font-family: 'Rowdies', cursive;
+    font-size: 75px;
+    text-align: center;
+}
+
+.lgn {
+    font-family: 'Rowdies', cursive;
+    font-size: 40px;
+    text-align: center;
+}
+
+.vision {
+    font-family: 'Rowdies', cursive;
+    font-size: 80px;
+    margin-left: 10px;
+
+}
+
+.texto1 {
+    font-family: 'Rowdies', cursive;
+    font-size: 20px;
+    margin-left: 10px;
+
+}
+
+#perfil2 {
+    border-radius: 10px;
+    width: 170px;
+    height: 250px;
+    margin-left: 1150px;
+    margin-top: -230px;
+    box-shadow: 9px 9px 12px #000000;
+}
+
+.mision {
+    font-family: 'Rowdies', cursive;
+    font-size: 80px;
+    margin-left: 10px;
+
+}
+
+#perfil3 {
+    border-radius: 10px;
+    width: 230px;
+    height: 160px;
+    margin-left: 1150px;
+    margin-top: -230px;
+    box-shadow: 9px 9px 12px #000000;
+}
+
+.cont {
+    box-shadow: 9px 9px 12px #000000;
+}
+
+#estra {
+    width: auto;
+    height: auto;
+    max-width: 800px;
+    max-height:800px;
+    margin-left: 300px;
+    box-shadow: 9px 9px 12px #000000;
+}
+
+#alia {
+    width: auto;
+    height: auto;
+    max-width: 800px;
+    max-height: 800px;
+    margin-left: 300px;
+    box-shadow: 9px 9px 12px #000000;
+    margin-top: 50px;
+}
+
+#end1 {
+    width: auto;
+    height: auto;
+    max-width: 300px;
+    max-height: 300px;
+    box-shadow: 9px 9px 12px #000000;
+    margin-left: 20px;
+}
+
+#end2 {
+    width: auto;
+    height: auto;
+    max-width: 300px;
+    max-height: 300px;
+    box-shadow: 9px 9px 12px #000000;
+    margin-left: 500px;
+}
+
+#end3 {
+    width: auto;
+    height: auto;
+    max-width: 300px;
+    max-height: 300px;
+    box-shadow: 9px 9px 12px #000000;
+    margin-left: 900px;
+    margin-top: -750px;
+}
+  
